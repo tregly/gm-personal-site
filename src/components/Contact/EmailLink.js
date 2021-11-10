@@ -9,21 +9,21 @@ const validateText = (text) => {
 };
 
 const messages = [
-  'giuseppe.maldarelli',
-  'giuseppe.maldarelli',
-  'giuseppe.maldarelli',
-  'giuseppe.maldarelli',
-  'giuseppe.maldarelli',
-  'giuseppe.maldarelli',
-  'giuseppe.maldarelli',
-  'giuseppe.maldarelli',
-  'giuseppe.maldarelli',
-  'giuseppe.maldarelli',
-  'giuseppe.maldarelli',
-  'giuseppe.maldarelli',
-  'giuseppe.maldarelli',
-  'giuseppe.maldarelli',
-  'giuseppe.maldarelli',
+  'me',
+  'me',
+  'me',
+  'me',
+  'me',
+  'me',
+  'me',
+  'me',
+  'me',
+  'me',
+  'me',
+  'me',
+  'me',
+  'me',
+  'me',
 ];
 
 const useInterval = (callback, delay) => {
@@ -76,9 +76,9 @@ const EmailLink = () => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:${message}@outlook.it` : ''}>
+      <a href={validateText(message) ? `mailto:${message}@maldarelli.eu` : ''}>
         <span>{message}</span>
-        <span>@outlook.it</span>
+        <span>@maldarelli.eu</span>
       </a>
     </div>
   );

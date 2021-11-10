@@ -28,7 +28,7 @@ const data = [
     icon: faLinkedinIn,
   },
   {
-    link: 'mailto:giuseppe.maldarelli@outlook.it',
+    link: 'mailto:info@maldarelli.eu',
     label: 'Email',
     icon: faEnvelope,
   },
