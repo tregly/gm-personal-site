@@ -25,7 +25,7 @@ const Index = () => (
         oppure puoi consultare il mio {' '}
         <Link to="/resume">curriculum</Link>, {' '}
         <Link to="/projects">i miei progetti</Link>, {' '}
-        or <Link to="/contact">contattarmi</Link>.
+        o <Link to="/contact">contattarmi</Link>.
       </p>
     </article>
   </Main>
